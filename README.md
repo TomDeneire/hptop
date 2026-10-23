@@ -23,8 +23,11 @@ make build
 
 ## Run
 
+`make build` installs the binary to `$HOME/bin`, so run it from there (make
+sure `$HOME/bin` is on your `PATH`):
+
 ```sh
-./hptop
+hptop
 ```
 
 Keys:
